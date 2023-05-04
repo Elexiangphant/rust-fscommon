@@ -16,10 +16,10 @@ Filesystem common utilities.
 # Use Rust std library
 std = []
 # Default features
-default = ["std"]
+default = []
 
 [dependencies]
-core_io = { version = "0.1", optional = true }
+core2 = { path = "../../dependencies/core2", version = "0.4", default-features = false, features = ["nightly"] }
 log = "0.4"
 
 [dev-dependencies]
