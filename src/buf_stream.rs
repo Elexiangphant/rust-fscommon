@@ -1,5 +1,5 @@
 use crate::io;
-use crate::io::prelude::*;
+use core2::io::{Read,Write,Seek};
 use core::cmp;
 use core::mem;
 use core::ptr;
